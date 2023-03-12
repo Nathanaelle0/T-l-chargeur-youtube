@@ -135,7 +135,7 @@ def add_playlist(*event) :
 def edit_chemin(*event) :
     def new_chemin_save(*event) :
         new_chemin = new_chemin_entry.get()
-        open('chemin_titou_yt.txt', 'w').write(new_chemin)
+        open('chemin_defaults_yt.txt', 'w').write(new_chemin)
         entry_chemin.delete(0,END)
         entry_chemin.insert(0, new_chemin)
         new_chemin_entry.delete(0, END)
@@ -152,7 +152,7 @@ def edit_chemin(*event) :
     
 
 gui = Tk()
-gui.title('yt Titouan')
+gui.title('Téléchargeur youtube')
 
 menubar = Menu(gui)
 
@@ -208,7 +208,7 @@ bouton2.pack()
 try :
     entry_chemin = Entry(gui, width = 100)
     entry_chemin.pack()
-    entry_chemin.insert(0, open('chemin_titou_yt.txt', 'r').read().splitlines()[0])
+    entry_chemin.insert(0, open('chemin_default_yt.txt', 'r').read().splitlines()[0])
     entry_chemin.bind("<Return>", telechargement)
 except :
     pass
