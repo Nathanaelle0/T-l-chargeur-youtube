@@ -1,4 +1,4 @@
-# T-l-chargeur-youtube
+# Téléchargeur youtube
 Un téléchargeur youtube simple en python
 FR :
 
@@ -15,18 +15,17 @@ Le fichier téléchargé sera enregistré dans le dossier par défaut spécifié
 
 Remarque :
 
-    L'application peut gérer les listes de lecture YouTube. Entrez l'URL d'une liste de lecture dans le champ de texte pour ajouter toutes les vidéos de la liste de lecture à la liste de téléchargement.
+L'application peut gérer les listes de lecture YouTube. Entrez l'URL d'une liste de lecture dans le champ de texte pour ajouter toutes les vidéos de la liste de lecture à la liste de téléchargement.
     
-    EN :
+EN :
     
-    A graphical window opens, containing a text field to enter the URL of a YouTube video, a list to display the added URLs, a dropdown menu to choose the download format (video or audio), and a button to start the download.
-
-    Enter the URL of a YouTube video in the text field and press "Enter" or click the "Add" button. The URL will be added to the list with the video's title (or "Unknown Name" if the title cannot be retrieved).
-    Repeat step 1 to add as many URLs as you wish.
-    Select one or more URLs in the list and right-click to remove a URL from the list.
-    Choose the download format from the dropdown menu (audio or video).
-    Click the "Download" button to start the download. An output window opens, indicating the progress of the downloads.
-    The downloaded file will be saved in the default folder specified in the "Default Path" field at the bottom of the window. You can change this path by clicking the "File" button then "Edit" and entering a new path. Click "OK" to save the new path.
+A graphical window opens, containing a text field to enter the URL of a YouTube video, a list to display the added URLs, a dropdown menu to choose the download format (video or audio), and a button to start the download.
+Enter the URL of a YouTube video in the text field and press "Enter" or click the "Add" button. The URL will be added to the list with the video's title (or "Unknown Name" if the title cannot be retrieved).
+Repeat step 1 to add as many URLs as you wish.
+Select one or more URLs in the list and right-click to remove a URL from the list.
+Choose the download format from the dropdown menu (audio or video).
+Click the "Download" button to start the download. An output window opens, indicating the progress of the downloads.
+The downloaded file will be saved in the default folder specified in the "Default Path" field at the bottom of the window. You can change this path by clicking the "File" button then "Edit" and entering a new path. Click "OK" to save the new path.
 
 Note:
 The application can handle YouTube playlists. Enter the URL of a playlist in the text field to add all the videos in the playlist to the download list.
